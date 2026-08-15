@@ -55,7 +55,7 @@
 
 > 一个 AI 记住的，应该能被所有 AI 分享。这就是"念"存在的意义。
 
-**贡献与变更**：详细的贡献规范见 [`CONTRIBUTING.md`](CONTRIBUTING.md)；变更历史见 [`CHANGELOG.md`](CHANGELOG.md)。**自检**：`python check_skill.py` 对智慧系统跑元智慧审计（中英结构／README 声称一致性／旧话术残留／死链接／计数一致性），生成 `check_report.md`——元智慧审计落到产物的实证工具。
+**贡献与变更**：详细的贡献规范见 [`CONTRIBUTING.md`](CONTRIBUTING.md)；变更历史见 [`CHANGELOG.md`](CHANGELOG.md)。**自检**：`python check_skill.py` 对项目跑全项元智慧审计（中英结构／README 声称一致性／旧话术残留／死链接／计数一致性／AI 协议版完整性／脱敏检查），生成 `check_report.md`——每次改动后跑一遍，元智慧自指落到产物。
 
 ## 内容一览
 

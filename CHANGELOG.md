@@ -2,6 +2,13 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/) 与 [Semantic Versioning](https://semver.org/lang/zh-CN/) 的约定。
 
+## [v1.0.16] - 2026-08-15
+
+### Changed（升级：自检驱动的完整项目）
+
+- **check_skill.py 升级为全项目审计（7 项）**：原有 5 项（中英结构／README 声称一致性／旧话术残留／死链接／计数一致性）＋新增 **AI 协议版完整性校验**（`@META` 头部、`@W`/`@C`/`@R`/`@A` 条目、law 行完整性、`@end` 标记）＋**脱敏检查**（发布前 checklist：真名/私人目标/项目标识零命中）。
+- **ba 四件套闭环**：骨架（`SKILL.md`/en）＋血肉（`docs/conversation-wisdom-zh.md`）＋协议版（`docs/conversation-protocol-zh.md`，AI 专属加载）＋审计工具（`check_skill.py`，7 项自检）。任何改动后跑一遍自检，元智慧自指落到产物。
+
 ## [v1.0.15] - 2026-08-15
 
 ### Added（新增）
