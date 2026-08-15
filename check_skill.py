@@ -140,21 +140,25 @@ layers = ["知识层", "规则层", "智慧层", "元智慧层"]
 layer_hits = [l for l in layers if l in skill_text]
 log(f"- 四层关键词命中: {len(layer_hits)}/4 " + ("✅" if len(layer_hits) == 4 else "⚠️ 缺: " + str([l for l in layers if l not in layer_hits])))
 
-# ---- 6. 脱敏检查（发布前 checklist：真名/私人目标/项目标识）----
+# ---- 6. 脱敏检查（发布前 checklist；关键词从本地私密文件读取，不入公开代码）----
 log("")
 log("## 6. 脱敏检查（发布前 checklist）")
-priv_kw = ["王超", "遴选", "78 分", "78分", "学习工具", "douyin", "抖音"]
-targets7 = [FILES["skill"], FILES["skill_en"], FILES["readme"]] + sorted(DOCS.glob("*.md"))
-priv_hits = 0
-for p in targets7:
-    txt = read(p)
-    for i, ln in enumerate(txt.splitlines(), 1):
-        for kw in priv_kw:
-            if kw in ln:
-                log(f"- ❌ {p.name}:{i} 命中「{kw}」: {ln.strip()[:80]}")
-                priv_hits += 1
-if priv_hits == 0:
-    log("- ✅ 真名/私人目标/项目标识 零命中")
+kw_file = BASE / ".priv-kw.txt"
+if kw_file.exists():
+    priv_kw = [ln.strip() for ln in kw_file.read_text(encoding="utf-8").splitlines() if ln.strip()]
+    targets7 = [FILES["skill"], FILES["skill_en"], FILES["readme"]] + sorted(DOCS.glob("*.md"))
+    priv_hits = 0
+    for p in targets7:
+        txt = read(p)
+        for i, ln in enumerate(txt.splitlines(), 1):
+            for kw in priv_kw:
+                if kw in ln:
+                    log(f"- ❌ {p.name}:{i} 命中私密关键词: {ln.strip()[:60]}")
+                    priv_hits += 1
+    if priv_hits == 0:
+        log("- ✅ 私密关键词零命中")
+else:
+    log("- ⚠️ 未配置私密关键词文件（.priv-kw.txt），脱敏检查跳过——本地运行请创建该文件")
 
 # ---- 写报告 ----
 report = "\n".join(lines) + "\n"
