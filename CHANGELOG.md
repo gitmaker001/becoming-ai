@@ -2,6 +2,13 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/) 与 [Semantic Versioning](https://semver.org/lang/zh-CN/) 的约定。
 
+## [v1.0.14] - 2026-08-15
+
+### Added（新增）
+
+- **docs/conversation-wisdom-zh.md《对话智慧存档》**：ba 的血肉版——一场真实对话的全过程（10 亿 token 失败案例的诊断与救回）、人类原话＋规律＋做法（精华三十条）、决策示范、给新对话 AI 的启动清单、验证过的效果。任何模型读完 SKILL.md＋本文件，能获得接近原对话的能力（骨架＋血肉两层传承）。
+- 来源：用户问"怎么样能让别的对话 AI 有你这样的能力"——答案：骨架（SKILL）＋血肉（本文件）＋新的真实对话。
+
 ## [v1.0.13] - 2026-08-15
 
 ### Added（新增，中英同步）

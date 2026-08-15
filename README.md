@@ -75,6 +75,7 @@
 - [`docs/story-zh.md`](docs/story-zh.md) — 中文故事文《我教一个 AI 成为自己》（发布用）
 - [`docs/story-en.md`](docs/story-en.md) — English story article（Dev.to / Medium 已用）
 - [`docs/study-notes-zh.md`](docs/study-notes-zh.md) — 30 分钟读懂 becoming-ai（导读笔记）
+- [`docs/conversation-wisdom-zh.md`](docs/conversation-wisdom-zh.md) — 对话智慧存档（血肉版）：一场真实对话的全过程、人类原话、决策与教训——让新对话 AI 获得接近原对话的能力
 - [`docs/x-threads.md`](docs/x-threads.md) — 传播文案库（X / Reddit / 知乎 / 小红书）
 - [`docs/share-cards.md`](docs/share-cards.md) — 分享卡片文案（协作原则 / 元规则 / 4 条信念）
 
