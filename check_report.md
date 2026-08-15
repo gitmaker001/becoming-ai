@@ -40,13 +40,14 @@
 - 七环关键词命中: 7/7 ✅
 - 四层关键词命中: 4/4 ✅
 
-## 6. AI 协议版完整性（conversation-protocol-zh.md）
-- @META 头部: ✅
-- @W 智慧条目: 7 条 ✅
-- @C 案例: 2 条 ✅
-- @R 纪律: 3 条 ✅
-- @A 启动清单: 1 条 ✅
-- @W 条目缺 law 行: 0 ✅
+## 6. 运行时配置完整性（config/agent.defaults）
+- 节 [agent]: ✅
+- 节 [budget]: ✅
+- 节 [layers]: ✅
+- 节 [discipline]: ✅
+- 节 [keys]: ✅
+- 关键键完整性: 10/11 ⚠️ 缺: ['deidentify']
+- ⚠️ 缺脱敏键（deidentify）
 
 ## 7. 脱敏检查（发布前 checklist）
 - ✅ 真名/私人目标/项目标识 零命中

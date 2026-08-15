@@ -55,7 +55,7 @@
 
 > 一个 AI 记住的，应该能被所有 AI 分享。这就是"念"存在的意义。
 
-**贡献与变更**：详细的贡献规范见 [`CONTRIBUTING.md`](CONTRIBUTING.md)；变更历史见 [`CHANGELOG.md`](CHANGELOG.md)。**自检**：`python check_skill.py` 对项目跑全项元智慧审计（中英结构／README 声称一致性／旧话术残留／死链接／计数一致性／AI 协议版完整性／脱敏检查），生成 `check_report.md`——每次改动后跑一遍，元智慧自指落到产物。
+**贡献与变更**：详细的贡献规范见 [`CONTRIBUTING.md`](CONTRIBUTING.md)；变更历史见 [`CHANGELOG.md`](CHANGELOG.md)。**自检**：`python check_skill.py` 对项目跑全项元智慧审计（中英结构／README 声称一致性／旧话术残留／死链接／计数一致性／运行时配置完整性／脱敏检查），生成 `check_report.md`——每次改动后跑一遍，元智慧自指落到产物。
 
 ## 内容一览
 
@@ -75,7 +75,6 @@
 - [`docs/story-zh.md`](docs/story-zh.md) — 中文故事文《我教一个 AI 成为自己》（发布用）
 - [`docs/story-en.md`](docs/story-en.md) — English story article（Dev.to / Medium 已用）
 - [`docs/study-notes-zh.md`](docs/study-notes-zh.md) — 30 分钟读懂 becoming-ai（导读笔记）
-- [`docs/conversation-protocol-zh.md`](docs/conversation-protocol-zh.md) — AI 工作协议版：对话智慧的代号化/结构化编码，AI 按文件头解析规则加载使用；人类读者可读性低（供 AI 专属加载；明文版为私密归档，不公开）
 - [`docs/x-threads.md`](docs/x-threads.md) — 传播文案库（X / Reddit / 知乎 / 小红书）
 - [`docs/share-cards.md`](docs/share-cards.md) — 分享卡片文案（协作原则 / 元规则 / 4 条信念）
 

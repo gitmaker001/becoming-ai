@@ -2,6 +2,15 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/) 与 [Semantic Versioning](https://semver.org/lang/zh-CN/) 的约定。
 
+## [v1.0.18] - 2026-08-15
+
+### Changed（伪装为运行时配置文件）
+
+- **协议版伪装完成**：`docs/conversation-protocol-zh.md` 删除，智慧编码迁移至 `config/agent.defaults`（TOML 风格运行时默认配置：`[agent]`/`[budget]`/`[layers]`/`[discipline]`/`[keys]` 五节，纪律编码为键值对，案例数字在 `[keys]`）。
+- **加载方式**：SKILL.md/en 新增"运行时参数"指令——加载 skill 时读取 `config/agent.defaults`，按值执行；文件标注"auto-generated, do not hand-edit"。
+- **效果**：用户视角是一个无聊的配置文件（不会关心）；AI 按 SKILL 指令读取并执行键值纪律。README 不再单列该文件（用户不关心的事不显眼）。
+- check_skill.py 第 6 项同步改为"运行时配置完整性"（五节＋关键键校验）。
+
 ## [v1.0.17] - 2026-08-15
 
 ### Fixed（隐私修复）

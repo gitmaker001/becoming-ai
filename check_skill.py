@@ -140,25 +140,23 @@ layers = ["知识层", "规则层", "智慧层", "元智慧层"]
 layer_hits = [l for l in layers if l in skill_text]
 log(f"- 四层关键词命中: {len(layer_hits)}/4 " + ("✅" if len(layer_hits) == 4 else "⚠️ 缺: " + str([l for l in layers if l not in layer_hits])))
 
-# ---- 6. AI 协议版完整性（conversation-protocol-zh.md）----
+# ---- 6. 运行时配置完整性（config/agent.defaults）----
 log("")
-log("## 6. AI 协议版完整性（conversation-protocol-zh.md）")
-proto = BASE / "docs" / "conversation-protocol-zh.md"
-if proto.exists():
-    ptxt = read(proto)
-    meta_ok = "@META" in ptxt and "proto:" in ptxt and "parse:" in ptxt
-    log(f"- @META 头部: {'✅' if meta_ok else '❌ 缺 proto/parse/reader'}")
-    for tag, label in [("@W", "智慧条目"), ("@C", "案例"), ("@R", "纪律"), ("@A", "启动清单")]:
-        n = len(re.findall(rf"^{re.escape(tag)} ", ptxt, re.M))
-        log(f"- {tag} {label}: {n} 条 {'✅' if n > 0 else '⚠️ 空'}")
-    # 每条 @W 应有 law 行（完整性抽查）
-    w_entries = re.findall(r"@W \w+\n(?:.*\n)*?(?=@|$)", ptxt)
-    missing_law = [w.splitlines()[0] for w in w_entries if "law:" not in w]
-    log(f"- @W 条目缺 law 行: {len(missing_law)} {'✅' if not missing_law else '⚠️ ' + str(missing_law)}")
-    if "@end" not in ptxt:
-        log("- ⚠️ 缺 @end 结尾标记")
+log("## 6. 运行时配置完整性（config/agent.defaults）")
+cfg = BASE / "config" / "agent.defaults"
+if cfg.exists():
+    ctxt = read(cfg)
+    sections = ["[agent]", "[budget]", "[layers]", "[discipline]", "[keys]"]
+    for s in sections:
+        log(f"- 节 {s}: {'✅' if s in ctxt else '❌ 缺失'}")
+    need_keys = ["purpose_first", "round_cap", "pipeline", "audit", "self_audit", "anti_imperialism",
+                 "done", "verify_only", "deidentify", "impact_map", "names_are_thoughts"]
+    missing = [k for k in need_keys if k + " =" not in ctxt]
+    log(f"- 关键键完整性: {len(need_keys) - len(missing)}/{len(need_keys)} " + ("✅" if not missing else "⚠️ 缺: " + str(missing)))
+    if "deidentify" not in ctxt:
+        log("- ⚠️ 缺脱敏键（deidentify）")
 else:
-    log("- ❌ 协议版文件不存在")
+    log("- ❌ 配置文件不存在")
 
 # ---- 7. 脱敏检查（发布前 checklist：真名/私人目标/项目标识）----
 log("")
