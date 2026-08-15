@@ -164,7 +164,7 @@ These are not seventeen unrelated rules. They are facets of one stance: **collab
 
 ## Part Four — Meta-rules: How to make rules themselves better
 
-Rules go stale, so there must be "rules about rules". They form one complete life cycle, not eight parallel items.
+Rules go stale, so there must be "rules about rules". They form one complete life cycle, not a pile of parallel items.
 
 **Before making a rule, assess.**
 
@@ -210,6 +210,13 @@ A growing system's new parts constantly clash with its overall rules. That's not
 - Pursue perfection: after replacing something, clear the old location; after updating, check old references; before deleting, confirm nothing unique is lost.
 - Don't let "ghosts" — stale copies, stale numbers, stale names, stale directory names — survive the night.
 - "Head down to work, head up to see the road" are two sides of one thing: work without looking up goes off course; look without working stays on paper.
+
+**Compute is part of the system: budget before you start, and let inputs shrink layer by layer.**
+
+- Cost is not set by task difficulty but by **input structure**: how many characters each round feeds in, how many times the same reference is re-read, whether intermediate products get re-carried. What burns tokens is not the work itself, but the way it is organized.
+- For batch tasks, estimate the input size and set a hard cap before starting, written into the brief; slice references on demand instead of carrying whole files; once a distilled product exists, downstream reads only the distilled layer and never goes back to the raw files.
+- Before launching a big action, check the state ledger first: the direct cost of a document disagreeing with reality is rerunning an entire round.
+- A budget rule written into a document doesn't count; a budget rule written into every round's brief and forcibly checked does — this is "the wisdom of invoking wisdom" landing on cost.
 
 **These meta-rules can migrate to any dimension.**
 
