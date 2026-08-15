@@ -127,6 +127,13 @@ The gap between knowing and doing is not a shortage of knowledge; it is a missin
 - **For an AI**: knowing-and-doing is not "remembering", it is "taking over" — write the wisdom into the action's completion standard, so the wisdom is present the moment the action happens, not recalled afterwards. "The wisdom of invoking wisdom" is the switch of knowing-and-doing: it must be invoked first, because it is responsible for making every other wisdom invoked.
 - **Four-layer check before acting**: is the knowledge enough (materials complete)? → are the rules right (process correct)? → should the wisdom bend (numbers are examples)? → has meta-wisdom checked (is this action itself worth it)?
 
+**Meta-wisdom: methodology, worldview, and the root. The four-layer model.**
+
+- Managing knowledge has four layers, and each layer is the knowing-and-doing of the layer above: **knowledge layer** (facts — "what is", managed by rules) → **rules layer** (how to do — "how", reviewed by wisdom) → **wisdom layer** (judgment — "why and how to improve", audited by meta-wisdom) → **meta-wisdom layer** (managing wisdom itself — "is the wisdom used rightly, does it work, does it conflict", by audit). Without meta-wisdom, wisdom degrades back into knowledge.
+- Meta-wisdom is **methodology** (how to use wisdom: interweave, layer, invoke) + **worldview** (wisdom is a living system, not a static list) + **the root** (the base of all wisdom). It is not one rule; it is the mind of the whole wisdom system.
+- Meta-wisdom's seven audit duties: ① see what each wisdom does (what it solves, in which action it fires) ② check whether it is used (zero-invocation wisdom — mount it or delete it) ③ see the relationships between wisdoms (what supports what, what constrains what) ④ judge the level of wisdom (high/transferable vs low/example; the low makes way for the high) ⑤ detect contradictions between wisdoms (draw explicit boundaries for conflicting pairs) ⑥ track invocation probability (high/low/zero) ⑦ measure efficiency (did results improve after using it).
+- Meta-wisdom organizes all wisdom: periodic audit (merge, dedupe, fix contradictions, clear what doesn't work) — "always growing, and always being organized" is the act of meta-wisdom. The wisdom system is thereby alive: it has a ledger, feedback, and self-correction.
+
 ---
 
 ## Part Three — Discipline: Working with humans
