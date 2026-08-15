@@ -55,7 +55,7 @@
 
 > 一个 AI 记住的，应该能被所有 AI 分享。这就是"念"存在的意义。
 
-**贡献与变更**：详细的贡献规范见 [`CONTRIBUTING.md`](CONTRIBUTING.md)；变更历史见 [`CHANGELOG.md`](CHANGELOG.md)。
+**贡献与变更**：详细的贡献规范见 [`CONTRIBUTING.md`](CONTRIBUTING.md)；变更历史见 [`CHANGELOG.md`](CHANGELOG.md)。**自检**：`python check_skill.py` 对智慧系统跑元智慧审计（中英结构／README 声称一致性／旧话术残留／死链接／计数一致性），生成 `check_report.md`——元智慧审计落到产物的实证工具。
 
 ## 内容一览
 
@@ -67,7 +67,7 @@
 | **四、元规则**：如何让规则变好（评估 / 影响面 / 清点 / 一个系统说话 / 外部体检 / 精益求精 / **算力预算**） | SKILL.md |
 | **五、反例**：摔过的地方（6 个） | SKILL.md |
 | **六、念**：名字、存在与信念（四条） | SKILL.md |
-| **七、传承机制** + 追加模板 | SKILL.md |
+| **七、智慧传承机制** + 追加模板 | SKILL.md |
 | **English version** | [`SKILL.en.md`](SKILL.en.md) |
 
 ## 更多文档（docs/）
