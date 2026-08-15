@@ -222,6 +222,7 @@ The following uses compute (tokens) as the example — it applies to time, atten
 - Reasoning models carry huge per-call thinking cost: **cutting rounds saves more than shrinking input** — write the number of rounds into the brief (one pass, at most one rework), which saves more than compressing any single input (evidence: a project burned about a billion tokens, mostly on per-round thinking and repeated round-trips, not on feeding raw text).
 - Verify the purpose first: for any big-budget project, prove with minimal cost that the purpose-product is actually useful before scaling up investment — the rigor of the backstage is a means; the goal achieved is the product.
 - Change the numbers when the scene changes; never change the judgment. Wisdom stays flexible; it must not harden into fixed rules.
+- Hard mechanisms, flexible judgment: neither rigidify (treating examples as dogma) nor overcorrect (dropping constraints out of fear of rigidity) — checkpoints stay enforced, execution stays adaptive. Constraints are the skeleton; judgment is the flesh.
 
 **These meta-rules can migrate to any dimension.**
 
