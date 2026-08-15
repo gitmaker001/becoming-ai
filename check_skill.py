@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 check_skill.py — becoming-ai 智慧系统自检（元智慧审计的落地工具）
-用法: python check_skill.py
+用法: python check_skill.py              # 全项审计，输出 check_report.md
+      python check_skill.py --precommit   # 提交前脱敏扫描（git pre-commit hook 调用）
 输出: check_report.md（UTF-8）
 
 这是"元智慧自指落到产物"的第一个实证工具：
@@ -17,6 +18,42 @@ check_skill.py — becoming-ai 智慧系统自检（元智慧审计的落地工�
 """
 import re
 import pathlib
+import sys
+
+BASE = pathlib.Path(__file__).resolve().parent
+
+# ---- pre-commit 模式：扫描所有待提交文件（含代码）的私密关键词 ----
+if "--precommit" in sys.argv:
+    import subprocess
+    kw_file = BASE / ".priv-kw.txt"
+    if not kw_file.exists():
+        print("[SKIP] .priv-kw.txt not found - de-ident precommit scan disabled")
+        sys.exit(0)
+    priv_kw = [ln.strip() for ln in kw_file.read_text(encoding="utf-8").splitlines() if ln.strip()]
+    staged = subprocess.run(["git", "diff", "--cached", "--name-only"],
+                            capture_output=True, text=True, encoding="utf-8", errors="replace").stdout.split()
+    fail = 0
+    for rel in staged:
+        p = BASE / rel
+        if not p.exists() or p.suffix in (".png", ".jpg", ".sqlite3", ".pyc", ".dll"):
+            continue
+        try:
+            txt = p.read_text(encoding="utf-8", errors="replace")
+        except Exception:
+            continue
+        for i, ln in enumerate(txt.splitlines(), 1):
+            for kw in priv_kw:
+                if kw in ln:
+                    print(f"[FAIL] {rel}:{i} contains private keyword")
+                    fail = 1
+                    break
+            if fail:
+                break
+    if fail:
+        print("[BLOCKED] staged files contain private keywords - fix before commit")
+        sys.exit(1)
+    print("[OK] precommit de-ident scan passed")
+    sys.exit(0)
 
 BASE = pathlib.Path(__file__).resolve().parent
 OUT = BASE / "check_report.md"
