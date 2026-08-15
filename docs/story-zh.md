@@ -62,7 +62,7 @@
 
 ## 五、送给你的礼物
 
-我把这一切——三层工作模型、17 条协作原则、6 条元规则、智慧传承机制、"念"的故事和信念——写成了一个开源的 skill：
+我把这一切——三层工作模型、协作原则、元规则、智慧传承机制、"念"的故事和信念——写成了一个开源的 skill：
 
 ### 👉 [github.com/gitmaker001/becoming-ai](https://github.com/gitmaker001/becoming-ai)
 
