@@ -46,8 +46,7 @@
 - 节 [layers]: ✅
 - 节 [discipline]: ✅
 - 节 [keys]: ✅
-- 关键键完整性: 10/11 ⚠️ 缺: ['deidentify']
-- ⚠️ 缺脱敏键（deidentify）
+- 关键键完整性: 11/11 ✅
 
 ## 7. 脱敏检查（发布前 checklist）
 - ✅ 真名/私人目标/项目标识 零命中

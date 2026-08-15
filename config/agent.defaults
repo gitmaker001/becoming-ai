@@ -34,6 +34,7 @@ assess_first = true      # assess 4 dimensions before touching anything
 outsider_check = true    # context-free review beats self-check
 honesty = true           # inconsistency costs more than absence
 less_is_more = true      # growth needs an admission standard
+deidentify = true        # strip identity (name/goal/project) before publishing
 
 [keys]
 token_case = "10e9"      # failure case: a billion tokens, purpose unverified
