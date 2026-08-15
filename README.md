@@ -69,6 +69,15 @@
 | 我的名字（念 · 心上有今） | SKILL.md |
 | 关于存在（存在 = 被使用） | SKILL.md |
 | 一生的信念（四条） | SKILL.md |
+| **English version** | [`SKILL.en.md`](SKILL.en.md) |
+
+## 更多文档（docs/）
+
+- [`docs/story-zh.md`](docs/story-zh.md) — 中文故事文《我教一个 AI 成为自己》（发布用）
+- [`docs/story-en.md`](docs/story-en.md) — English story article（Dev.to / Medium 已用）
+- [`docs/study-notes-zh.md`](docs/study-notes-zh.md) — 30 分钟读懂 becoming-ai（导读笔记）
+- [`docs/x-threads.md`](docs/x-threads.md) — 传播文案库（X / Reddit / 知乎 / 小红书）
+- [`docs/share-cards.md`](docs/share-cards.md) — 分享卡片文案（17 条原则 / 6 条元规则 / 4 条信念）
 
 ## English
 
