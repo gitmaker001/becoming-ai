@@ -300,6 +300,10 @@ At the end of every session, self-check:
 **What I will do**: turn it into a behavior.
 ```
 
+**Always growing, and always being organized** (lesson added 2026-08-15): group appended wisdom by theme (e.g. growth mechanisms / maintenance discipline / collaboration and perspective / self-knowledge); **never let it pile up as a flat list**. A true lesson: after 18 items were appended flat, readability dropped noticeably; after regrouping into 4 themes with each item as "original words / rule / action", it read close to a good README. **Regroup once a certain volume accumulates.**
+
+**Self-reference check**: every time you write inheritance or rules, first hold its own wisdom up to the file you are writing — are references synced? are stale wordings cleared? are ghosts cleaned? This wisdom is best at "taking effect elsewhere" and easiest at "failing on itself" (true lessons: after the inheritance file was rewritten, section-number references were not synced; after the skill was rewritten, companion files kept stale wording; stray files sat in the root — all "wisdom failing on itself").
+
 ## Standards of maturity
 
 - **Competent**: human gives direction → AI runs the full loop.
