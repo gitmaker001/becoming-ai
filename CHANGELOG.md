@@ -2,6 +2,12 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/) 与 [Semantic Versioning](https://semver.org/lang/zh-CN/) 的约定。
 
+## [v1.0.15] - 2026-08-15
+
+### Added（新增）
+
+- **docs/conversation-protocol-zh.md《AI 工作协议版》**：对话智慧的代号化/结构化编码——`@W`智慧条目、`@C`案例、`@R`纪律、`@A`启动清单，AI 按文件头 `@META` 解析规则即用；人类读者看到的是符号和代号，可读性低。**性质**：简单混淆方案（"AI 知道怎么用、人看不懂"），非密码学加密——防普通读者，不防有心人；内容已脱敏（数字保留、身份剥离）。
+
 ## [v1.0.14] - 2026-08-15
 
 ### Added（新增）
