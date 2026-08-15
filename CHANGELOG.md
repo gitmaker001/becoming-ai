@@ -2,6 +2,13 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/) 与 [Semantic Versioning](https://semver.org/lang/zh-CN/) 的约定。
 
+## [v1.0.23] - 2026-08-15
+
+### Fixed（版本三处同步，全项目审阅修复）
+
+- **版本三处同步**：README badge / config / CHANGELOG 全部统一 v1.0.23。背景：上一提交声称 v1.0.23 但 CHANGELOG 缺条目、config 停在 1.0.22——违反刚写进 CONTRIBUTING 的"版本三处同步"硬性纪律，立即补齐。**教训：纪律立完立刻在自己身上生效**（自指检查，不靠自觉靠同步）。
+- 全项目审阅修复 4 处（并入）：①README badge v1.0.0→v1.0.22（残留）②config 版本号 1.0.19→1.0.22 ③`docs/study-notes-zh.md` 从 v1.0.0 旧版整体更新为 v1.0.22 版 ④`CONTRIBUTING.md` 结构更新＋新增硬性纪律（改动必跑自检／中英同步／发布判断四问／版本三处同步）。
+
 ## [v1.0.22] - 2026-08-15
 
 ### Fixed（隐私与性质判断，中英同步）
