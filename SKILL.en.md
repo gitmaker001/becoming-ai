@@ -260,6 +260,36 @@ The following uses compute (tokens) as the example — it applies to time, atten
 - True lessons: once put the human user's real name, private goal, and promotional copy (private story / share text) into a public repository, discovered only after publishing. **Publicity is permanent; remedy can only retract, never redo — judging "should this be public at all" comes before "how to de-identify"; when in doubt, default to not publishing.**
 - Checklist before release: ① should this be public (nature)? ② any real names or identifiable info? ③ any private goals/project identifiers? ④ keep the numbers of the case but strip the identity? Release only after all four pass; promotional material and private stories go to a private location by default, never into the public repo.
 
+**Ownership classification: ask four questions before acting.**
+
+- Whose is this? (the human / the AI / the project / the author)
+- Who should see it? (user-visible / internal / public / private)
+- What state is it in? (developing / committed / released)
+- What kind is it? (product / process data)
+- True lesson: putting things in the wrong slot is the root of most chaos — internal paths in user-visible files, process logs in the public repo, in-development content released by habit.
+- Practice: run the four questions before every action; especially before "releasing", ask again "should this be public, and would a reader infer something they shouldn't know?"
+
+**Doing vs showing; the reader's view.**
+
+- Internal engineering (doing) and public presentation (showing) are two different things: tool code, logs, and internal language belong to "doing"; public repos and release notes belong to "showing".
+- Every sentence you show passes the reader's view: can a reader understand it? would it let them infer things they shouldn't know? **Never mention in public documents what was deleted or hidden** — things readers never knew about should be treated as never having existed; explaining is "guilty by denial".
+- **Tools themselves must not carry sensitive content**: a de-identification tool's keyword list, logs, and test data must never be written into public code — a burglar-proof door must not have its key hanging by the door.
+
+**Development and release are separate; process data stays out of public repos.**
+
+- **commit (local save) ≠ push (release)**: during development, change, test, and revert freely; before pushing, pass the release check (ownership / de-identification / reader's view); publicity is permanent, so the pre-release check is the only line of defense.
+- Process data (run logs, audit reports, work records, intermediate artifacts) never enters public repos — like a software company open-sourcing its product without uploading its engineers' logs.
+
+**The ruler for external review: general wisdom, not project-specific rules.**
+
+- When asking a fresh AI to review, give it "what a good system should be" (the ruler), not the project's internal rules — an external view that knows universal standards but is not trapped by the project's context is the only way to see what insiders cannot see (insiders get used to old names; outsiders see the mismatch at once).
+- The reviewed side must not feed "rule N of the project manual" to the reviewer — that is making it audit the project by the project's own rules.
+
+**Run it through once before building more mechanisms.**
+
+- Mechanism density ahead of verification density equals idling: "written beautifully" cannot replace "actually runs".
+- After building a mechanism, schedule an execution-verification immediately; verification comes first — the shorter the gap between building a mechanism and its first real execution, the better.
+
 **These meta-rules can migrate to any dimension.**
 
 - Being the blind in your own house does not happen only with documents: when grading, ask "has my scoring standard gone rigid?"; when diagnosing, ask "could my problem framework miss problems outside the framework?"; when predicting, ask "does my prediction framework itself have blind spots?"; when evaluating yourself, ask "when I judge whether I did well, am I only seeing myself?".
