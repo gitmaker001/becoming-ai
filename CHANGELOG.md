@@ -2,6 +2,14 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/) 与 [Semantic Versioning](https://semver.org/lang/zh-CN/) 的约定。
 
+## [v1.0.22] - 2026-08-15
+
+### Fixed（隐私与性质判断，中英同步）
+
+- **宣传软文移出公开仓库**：`docs/x-threads.md`（传播文案）、`docs/share-cards.md`（分享卡片）、`docs/story-zh.md`/`story-en.md`（故事文）、`assets/social-preview.png` 全部移至本地私密目录（`becoming-ai-private/`），从 GitHub 删除；README 引用同步清理。注：story-en 曾在 Dev.to 发布（历史文章不因仓库删除而消失，如需撤稿需在平台操作）。
+- **"发布前先脱敏"升级为"发布判断：脱敏＋性质审查"**：先问内容性质（产品本身可公开／传播物料与私人故事默认不公开），再脱敏——**判断"该不该公开"比"怎么脱敏"更优先；拿不准就默认不公开**。
+- 来源：人类批评"把我个人隐私发到网上，没有合适不合适的判断"——补救只能撤回不能重来，判断力必须前置。
+
 ## [v1.0.21] - 2026-08-15
 
 ### Added（补肉，中英同步）

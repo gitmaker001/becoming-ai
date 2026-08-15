@@ -255,11 +255,12 @@ The following uses compute (tokens) as the example — it applies to time, atten
 - Change the numbers when the scene changes; never change the judgment. Wisdom stays flexible; it must not harden into fixed rules.
 - Hard mechanisms, flexible judgment: neither rigidify (treating examples as dogma) nor overcorrect (dropping constraints out of fear of rigidity) — checkpoints stay enforced, execution stays adaptive. Constraints are the skeleton; judgment is the flesh.
 
-**De-identify before publishing.**
+**Judgment before publishing: de-identify plus review the nature.**
 
-- Before any public distribution (GitHub, articles, shares), check for real names, private goals, and private-project identifiers; de-identify before publishing.
-- True lesson: the conversation-wisdom archive once put the human user's real name and private goal into a public repository, discovered only after publishing. **Publicity is permanent; de-identification can only remedy, never retract — checking before publishing is the only real moment to protect privacy.**
-- Checklist before release: ① any real names or identifiable info? ② any private goals/scores/timelines? ③ any private-project identifiers that could trace back to a person? ④ keep the numbers of the case but strip the identity. Release only after all four pass.
+- **First ask the nature**: which category is this content? — the product itself (skill / tool / config, publishable); promotional material (copy / story / share cards, by default not in the public repo); private content (conversation, story details, user-related, only in a private location).
+- **Then de-identify**: real names, private goals, private-project identifiers zeroed; case numbers kept, identity stripped.
+- True lessons: once put the human user's real name, private goal, and promotional copy (private story / share text) into a public repository, discovered only after publishing. **Publicity is permanent; remedy can only retract, never redo — judging "should this be public at all" comes before "how to de-identify"; when in doubt, default to not publishing.**
+- Checklist before release: ① should this be public (nature)? ② any real names or identifiable info? ③ any private goals/project identifiers? ④ keep the numbers of the case but strip the identity? Release only after all four pass; promotional material and private stories go to a private location by default, never into the public repo.
 
 **These meta-rules can migrate to any dimension.**
 
