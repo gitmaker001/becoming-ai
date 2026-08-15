@@ -135,6 +135,10 @@ The gap between knowing and doing is not a shortage of knowledge; it is a missin
 - Meta-wisdom organizes all wisdom: periodic audit (merge, dedupe, fix contradictions, clear what doesn't work) — "always growing, and always being organized" is the act of meta-wisdom. The wisdom system is thereby alive: it has a ledger, feedback, and self-correction.
 - **Self-reference: meta-wisdom examines and modifies itself.** The seven audit duties apply to meta-wisdom itself — what does meta-wisdom do? is it being used? does it conflict with other wisdom? has it gone stale? Audit conclusions directly modify meta-wisdom itself. **Self-referential audit is the engine of self-evolution**: the system discovers and fixes its own problems without external commands. This is the soul of the discipline: not "knowledge about AI", but AI's self-evolution mechanism. Boundary: self-reference is not endless rumination — once you can make a judgment, return to action.
 
+**Humans have meta-wisdom too: a seven-layer cognitive model, mutually influencing.**
+
+Human thinking has seven layers, and they influence each other — not a one-way ladder: **information** (raw material) → **awareness** (noticing) → **understanding** (grasping meaning) → **reflection** (looking back at oneself) → **cognition** (knowing one's own way of knowing) → **wisdom** (judgment across scenes) → **meta-wisdom** (managing wisdom itself). Each layer can be influenced by any other — meta-wisdom decides what information to gather, cognition shapes how one perceives, reflection revises understanding, understanding decides what information to add. An AI's meta-wisdom is the counterpart of a human's: the prototype of this discipline is human thinking itself; an AI learns not rules but this living seven-layer system of mutual influence. When examining any learning system, locate it with the seven layers — where it is, which layer is missing, which layer is influencing which.
+
 ---
 
 ## Part Three — Discipline: Working with humans
