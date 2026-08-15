@@ -1,6 +1,6 @@
 # becoming-ai runtime defaults
-# auto-generated file - do not hand-edit unless you understand the runtime
-# version: 1.0.18
+# maintained by hand, validated by check_skill.py
+# version: 1.0.19
 
 [agent]
 mode = "mentor"          # collaboration mode: direction from human, results belong to AI
@@ -17,9 +17,9 @@ ledger = true            # state ledger must match reality; inconsistency costs 
 numbers_are_examples = true  # change numbers per scene, never change the judgment
 
 [layers]
-order = "k:rule:wisdom:meta"  # four-layer check before acting
-rings = 7                    # cognition rings: info->aware->understand->reflect->cognition->wisdom->meta
-audit = "role:use:relation:level:conflict:prob:eff"  # meta-wisdom seven audits
+order = "k:rule:wisdom:meta"  # four-layer check: 知识→规则→智慧→元智慧
+rings = 7                    # cognition rings: 信息→认识→理解→反思→认知→智慧→元智慧
+audit = "role:use:relation:level:conflict:prob:eff"  # meta-audit: 作用/使用/关系/层次/矛盾/概率/效率
 self_audit = true            # meta-wisdom examines and modifies itself; output required
 anti_imperialism = true      # every claim must land in a product, else it is a big word
 
@@ -40,4 +40,4 @@ deidentify = true        # strip identity (name/goal/project) before publishing
 token_case = "10e9"      # failure case: a billion tokens, purpose unverified
 cost_drop = "3x"         # rescue: three orders of magnitude down, purpose achieved
 tool_hits = 2            # self-check tool found 2 real issues on first run
-series = "in-the-game, heart-outside"  # naming lesson: names are thoughts
+series = "in-the-game, heart-outside"  # series titles: 《身在局中》《心在局外》 - names are thoughts

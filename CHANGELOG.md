@@ -2,6 +2,15 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/) 与 [Semantic Versioning](https://semver.org/lang/zh-CN/) 的约定。
 
+## [v1.0.19] - 2026-08-15
+
+### Fixed（外部测试反馈：别加密过头）
+
+- **触发指令更醒目**：SKILL.md/en 的"运行时参数"从文末"判断标准"移到"什么时候读它"节末——新 AI 快速通读即能看到，不再埋在 330 行末尾。
+- **一致性修复**：config 文件头 "auto-generated" 改为 "maintained by hand, validated by check_skill.py"——消除"自称自动生成却无生成器"的信任漏洞。
+- **自包含补全**：`audit`/`order`/`series` 缩写键加解码注释（中文含义），AI 读配置即可解码，不再强制回查 SKILL——修复"缩写不自包含、智慧在自己身上失效"。
+- 来源：无上下文子代理外部测试（发现 5 处障碍：指令位置/伪装过度/信息增量/不自包含/无执行器——前三处已修；"信息增量有限"与"无执行器"保留为已知边界：配置是纪律索引，执行靠 AI 自觉＋check_skill.py 校验）。
+
 ## [v1.0.18] - 2026-08-15
 
 ### Changed（伪装为运行时配置文件）

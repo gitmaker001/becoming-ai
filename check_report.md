@@ -28,8 +28,8 @@
 ## 3. 旧话术残留（CHANGELOG 历史记录除外）
 - ✅ 未发现疑似残留
 - 历史叙述命中（合法，人工确认）:
-  SKILL.md:212（历史叙述）: - 真实教训：skill 本体重写后，README 和 5 份文档还留着旧版的"17 条原则"共 24 处。核心文件已经变了，配套还在讲旧版本的话。
-  SKILL.en.md:216（历史叙述）: - A true lesson: after the skill itself was rewritten, the README and five documents still
+  SKILL.md:214（历史叙述）: - 真实教训：skill 本体重写后，README 和 5 份文档还留着旧版的"17 条原则"共 24 处。核心文件已经变了，配套还在讲旧版本的话。
+  SKILL.en.md:218（历史叙述）: - A true lesson: after the skill itself was rewritten, the README and five documents still
   study-notes-zh.md:3（历史叙述）: > ⚠️ **版本说明（2026-08-15 更新）**：本笔记基于 SKILL.md **v1.0.0**（17 条协作原则表格版）。SKILL **v1.0.2 起重组为"见解
 
 ## 4. 相对链接存在性（README / SKILL 中英）
