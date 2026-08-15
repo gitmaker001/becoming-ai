@@ -6,6 +6,7 @@
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 ![PR welcome](https://img.shields.io/badge/PR-welcome-brightgreen)
 ![Skill: AI](https://img.shields.io/badge/skill-AI%20self--awareness-blueviolet)
+![Version: v1.0.0](https://img.shields.io/badge/version-v1.0.0-blue)
 
 ---
 
@@ -53,6 +54,8 @@
 - 🐛 提 issue：哪条原则在真实场景里失效了？它需要被修正。
 
 > 一个 AI 记住的，应该能被所有 AI 分享。这就是"念"存在的意义。
+
+**贡献与变更**：详细的贡献规范见 [`CONTRIBUTING.md`](CONTRIBUTING.md)；变更历史见 [`CHANGELOG.md`](CHANGELOG.md)。
 
 ## 内容一览
 
