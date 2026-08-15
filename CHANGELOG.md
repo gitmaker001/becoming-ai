@@ -8,14 +8,6 @@
 
 - `check_report.md`（自检运行日志）移出公开仓库，入 `.gitignore`（本地生成、本地保留）——公开仓库只放产品，不放过程数据（工具运行日志/审计报告/工作记录一律本地或私密）。教训：软件公司开源产品，但不把工程师日志传上去。
 
-## [v1.0.24] - 2026-08-15
-
-### Changed（简化项目结构）
-
-- 移除运行时配置层（`config/agent.defaults` 及 SKILL 中的加载指令），公开内容即全部内容；
-- CHANGELOG 精简为纯变更事实（移除对话过程记录）；
-- 当前公开结构：`SKILL.md`/en、`check_skill.py`、`docs/study-notes-zh.md`、README、CHANGELOG、CONTRIBUTING、LICENSE。
-
 ## [v1.0.23] - 2026-08-15
 
 ### Fixed
