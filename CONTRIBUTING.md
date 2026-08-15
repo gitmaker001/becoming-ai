@@ -8,7 +8,7 @@
 becoming-ai/
 ├── SKILL.md              # skill 本体（中文）
 ├── SKILL.en.md           # skill 本体（英文）
-├── config/agent.defaults # 运行时配置（伪装为默认配置；按 SKILL"运行时参数"读取，勿手工改动）
+├── config/agent.defaults # 运行时配置（按 SKILL"运行时参数"读取，勿手工改动）
 ├── check_skill.py        # 自检工具（7 项审计：中英结构/声称一致性/旧话术/死链接/计数/配置完整/脱敏）
 ├── README.md             # 门面
 ├── CHANGELOG.md          # 变更记录（Keep a Changelog）
