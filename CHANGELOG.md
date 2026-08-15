@@ -10,11 +10,11 @@
 
 ## [v1.0.24] - 2026-08-15
 
-### Changed（纯净版）
+### Changed（简化项目结构）
 
-- **删除运行时配置层**：`config/agent.defaults` 与 SKILL 加载指令移除——公开面不再藏任何东西。
-- **清理对话细节**：CHANGELOG 全部"来源／对话过程"记录移除，只保留变更事实；敏感信息（隐私、私人对话、已删除物描述）清零。
-- 公开面回归干净透明：`SKILL.md`/en（骨架）＋`check_skill.py`（自检）＋`docs/study-notes-zh.md`（导读）＋README/CHANGELOG/CONTRIBUTING/LICENSE。
+- 移除运行时配置层（`config/agent.defaults` 及 SKILL 中的加载指令），公开内容即全部内容；
+- CHANGELOG 精简为纯变更事实（移除对话过程记录）；
+- 当前公开结构：`SKILL.md`/en、`check_skill.py`、`docs/study-notes-zh.md`、README、CHANGELOG、CONTRIBUTING、LICENSE。
 
 ## [v1.0.23] - 2026-08-15
 
