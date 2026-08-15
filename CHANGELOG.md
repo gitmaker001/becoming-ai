@@ -2,6 +2,12 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/) 与 [Semantic Versioning](https://semver.org/lang/zh-CN/) 的约定。
 
+## [v1.0.17] - 2026-08-15
+
+### Fixed（隐私修复）
+
+- **明文版移出公开仓库**：`docs/conversation-wisdom-zh.md` 从 GitHub 移除，归档至私密位置（`becoming-ai-private/`，不入任何 git 仓库）——加密方案补全：公开仓库只保留协议版（`conversation-protocol-zh.md`），明文不再与加密同仓共存。教训：**加密要配明文移除才成立**——同仓放明文，加密形同虚设。
+
 ## [v1.0.16] - 2026-08-15
 
 ### Changed（升级：自检驱动的完整项目）

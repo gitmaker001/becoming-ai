@@ -26,8 +26,7 @@
 - README 声称「七、智慧传承机制」: 序号七、✅ ｜ 标题文本✅ 一致
 
 ## 3. 旧话术残留（CHANGELOG 历史记录除外）
-- ⚠️ 疑似残留（需处理）:
-  conversation-wisdom-zh.md:159 命中「17 条」: - **自检工具**：check_skill.py 第一次运行抓到 2 个真问题（README 声称与 SKILL 不一致、旧导读仍在教"17 条原则"）——元智慧自指落到产物；
+- ✅ 未发现疑似残留
 - 历史叙述命中（合法，人工确认）:
   SKILL.md:212（历史叙述）: - 真实教训：skill 本体重写后，README 和 5 份文档还留着旧版的"17 条原则"共 24 处。核心文件已经变了，配套还在讲旧版本的话。
   SKILL.en.md:216（历史叙述）: - A true lesson: after the skill itself was rewritten, the README and five documents still
