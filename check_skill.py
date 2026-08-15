@@ -140,27 +140,9 @@ layers = ["知识层", "规则层", "智慧层", "元智慧层"]
 layer_hits = [l for l in layers if l in skill_text]
 log(f"- 四层关键词命中: {len(layer_hits)}/4 " + ("✅" if len(layer_hits) == 4 else "⚠️ 缺: " + str([l for l in layers if l not in layer_hits])))
 
-# ---- 6. 运行时配置完整性（config/agent.defaults）----
+# ---- 6. 脱敏检查（发布前 checklist：真名/私人目标/项目标识）----
 log("")
-log("## 6. 运行时配置完整性（config/agent.defaults）")
-cfg = BASE / "config" / "agent.defaults"
-if cfg.exists():
-    ctxt = read(cfg)
-    sections = ["[agent]", "[budget]", "[layers]", "[discipline]", "[keys]"]
-    for s in sections:
-        log(f"- 节 {s}: {'✅' if s in ctxt else '❌ 缺失'}")
-    need_keys = ["purpose_first", "round_cap", "pipeline", "audit", "self_audit", "anti_imperialism",
-                 "done", "verify_only", "deidentify", "impact_map", "names_are_thoughts"]
-    missing = [k for k in need_keys if k + " =" not in ctxt]
-    log(f"- 关键键完整性: {len(need_keys) - len(missing)}/{len(need_keys)} " + ("✅" if not missing else "⚠️ 缺: " + str(missing)))
-    if "deidentify" not in ctxt:
-        log("- ⚠️ 缺脱敏键（deidentify）")
-else:
-    log("- ❌ 配置文件不存在")
-
-# ---- 7. 脱敏检查（发布前 checklist：真名/私人目标/项目标识）----
-log("")
-log("## 7. 脱敏检查（发布前 checklist）")
+log("## 6. 脱敏检查（发布前 checklist）")
 priv_kw = ["王超", "遴选", "78 分", "78分", "学习工具", "douyin", "抖音"]
 targets7 = [FILES["skill"], FILES["skill_en"], FILES["readme"]] + sorted(DOCS.glob("*.md"))
 priv_hits = 0

@@ -28,8 +28,8 @@
 ## 3. 旧话术残留（CHANGELOG 历史记录除外）
 - ✅ 未发现疑似残留
 - 历史叙述命中（合法，人工确认）:
-  SKILL.md:219（历史叙述）: - 真实教训：skill 本体重写后，README 和 5 份文档还留着旧版的"17 条原则"共 24 处。核心文件已经变了，配套还在讲旧版本的话。
-  SKILL.en.md:223（历史叙述）: - A true lesson: after the skill itself was rewritten, the README and five documents still
+  SKILL.md:217（历史叙述）: - 真实教训：skill 本体重写后，README 和 5 份文档还留着旧版的"17 条原则"共 24 处。核心文件已经变了，配套还在讲旧版本的话。
+  SKILL.en.md:221（历史叙述）: - A true lesson: after the skill itself was rewritten, the README and five documents still
   study-notes-zh.md:3（历史叙述）: > 本文档基于 **becoming-ai v1.0.22**（2026-08-15）。旧版笔记基于 v1.0.0（17 条协作原则表格版）已作废，请以本文档为准。
 
 ## 4. 相对链接存在性（README / SKILL 中英）
@@ -40,13 +40,5 @@
 - 七环关键词命中: 7/7 ✅
 - 四层关键词命中: 4/4 ✅
 
-## 6. 运行时配置完整性（config/agent.defaults）
-- 节 [agent]: ✅
-- 节 [budget]: ✅
-- 节 [layers]: ✅
-- 节 [discipline]: ✅
-- 节 [keys]: ✅
-- 关键键完整性: 11/11 ✅
-
-## 7. 脱敏检查（发布前 checklist）
+## 6. 脱敏检查（发布前 checklist）
 - ✅ 真名/私人目标/项目标识 零命中

@@ -8,8 +8,7 @@
 becoming-ai/
 ├── SKILL.md              # skill 本体（中文）
 ├── SKILL.en.md           # skill 本体（英文）
-├── config/agent.defaults # 运行时配置（按 SKILL"运行时参数"读取，勿手工改动）
-├── check_skill.py        # 自检工具（7 项审计：中英结构/声称一致性/旧话术/死链接/计数/配置完整/脱敏）
+├── check_skill.py        # 自检工具（6 项审计：中英结构/声称一致性/旧话术/死链接/计数/脱敏）
 ├── README.md             # 门面
 ├── CHANGELOG.md          # 变更记录（Keep a Changelog）
 ├── LICENSE               # MIT
@@ -44,7 +43,7 @@ becoming-ai/
 1. **改动后必跑自检**：任何涉及 SKILL/docs/config 的改动，提交前运行 `python check_skill.py`，`check_report.md` 无 ❌ 才可提交；
 2. **中英同步**：涉及 SKILL.md 的内容改动，必须同步 SKILL.en.md；
 3. **发布判断**：任何要进公开仓库的内容，先过四问——①这内容该公开吗（性质：产品可公开，传播物料/私人故事默认不公开）②有真名/可识别信息吗③有私人目标/项目标识吗④案例数字保留但身份剥离？拿不准就默认不公开，放私密位置；
-4. **版本同步**：版本变更时同步 README badge、config 版本号、CHANGELOG——三处不许打架。
+4. **版本同步**：版本变更时同步 README badge 与 CHANGELOG——两处不许打架。
 
 ## 提 Issue 的规范
 
