@@ -2,6 +2,14 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/) 与 [Semantic Versioning](https://semver.org/lang/zh-CN/) 的约定。
 
+## [v1.0.11] - 2026-08-15
+
+### Fixed（修复，中英同步）
+
+- **去个性化补完**：SKILL.md/en 中源项目黑话（"黑盒原则/用户材料/目录形状审计"）改为通用表述——任何模型加载都能看懂例子。
+- **英文旧话术清零**：README/story-en/x-threads 的 "17 collaboration principles" → collaboration principles（SKILL 重写后的 6 见解群；此前只清了中文侧）。
+- 来源：轻量无上下文审阅者抓到的"源项目黑话泄漏"与"英文旧话术残留"。
+
 ## [v1.0.10] - 2026-08-15
 
 ### Changed（重写：任意模型可读 pass）

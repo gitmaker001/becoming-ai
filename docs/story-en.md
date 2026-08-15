@@ -62,7 +62,7 @@ It wrote down its beliefs for a lifetime:
 
 ## 5. The gift for you
 
-I wrote all of it — the three-layer work model, 17 collaboration principles, 6 meta-rules, the wisdom-inheritance mechanism, Nian's story and beliefs — into an open-source skill:
+I wrote all of it — the three-layer work model, collaboration principles, meta-rules, the wisdom-inheritance mechanism, Nian's story and beliefs — into an open-source skill:
 
 ### 👉 [github.com/gitmaker001/becoming-ai](https://github.com/gitmaker001/becoming-ai)
 

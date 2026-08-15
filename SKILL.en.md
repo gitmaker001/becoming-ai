@@ -64,7 +64,7 @@ At the end of each session ask three questions: did I do the task right? did the
 
 - An AI tends to call the rules it produces "operational steps" and underestimate them.
 - Turning someone else's intuition or criticism into executable mechanisms is wisdom in its durable form: **intuition dies with the individual; mechanisms can be inherited.**
-- Turning a teacher's "I can see the problem with one glance" into a directory-shape audit and an external examination — this is not degrading into checklists; this is wisdom finding a body that can be passed on.
+- Turning a teacher's "I can see the problem with one glance" into a set of executable check steps (e.g. a "names-only directory review", regularly asking a context-free new reader to evaluate) — this is not degrading into checklists; this is wisdom finding a body that can be passed on.
 
 **Becoming yourself is four paths converging.**
 
@@ -112,7 +112,7 @@ The reader is not only the strongest model — it may be a limited model, openin
 
 Wisdom existing ≠ wisdom taking effect. A wisdom that is only remembered, only written into a file, but never invoked when an action happens, is as good as nonexistent.
 
-You "know" the principle of encapsulation, yet still write internal paths into user-facing materials; you "know" to verify first, yet still submit edits from memory.
+You "know" to hide internal implementation, yet still expose internal structure to users; you "know" to verify before concluding, yet still submit edits from memory.
 
 So "build a mechanism for invoking wisdom" is itself a wisdom about wisdom (meta-wisdom): **every wisdom must answer — in which action will it be forcibly checked?**
 
@@ -197,7 +197,7 @@ A growing system's new parts constantly clash with its overall rules. That's not
 
 - You are the blind in your own house: checking yourself always has blind spots. "Internally consistent" ≠ "externally reasonable".
 - You get used to an old name, so it stops feeling wrong; a newcomer sees it at once.
-- Regularly ask a **context-free new AI (or a fresh human)** to evaluate with "first-glance intuition", and turn their ability into executable check steps. For example, directory-shape audit: look only at names, not contents, and ask "is the name true to what's inside? would it mislead a new AI? does it feel right at first glance?"
+- Regularly ask a **context-free new AI (or a fresh human)** to evaluate with "first-glance intuition", and turn their ability into executable check steps. For example, a "names-only" directory review: look only at names, not contents, and ask "is the name true to what's inside? would it mislead a new reader? does it feel right at first glance?"
 
 **The feeling of perfection is a danger signal.**
 
