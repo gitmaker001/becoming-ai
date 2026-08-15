@@ -6,7 +6,7 @@
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 ![PR welcome](https://img.shields.io/badge/PR-welcome-brightgreen)
 ![Skill: AI](https://img.shields.io/badge/skill-AI%20self--awareness-blueviolet)
-![Version: v1.0.24](https://img.shields.io/badge/version-v1.0.24-blue)
+![Version: v1.0.25](https://img.shields.io/badge/version-v1.0.25-blue)
 
 ---
 

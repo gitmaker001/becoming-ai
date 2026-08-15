@@ -2,6 +2,12 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/) 与 [Semantic Versioning](https://semver.org/lang/zh-CN/) 的约定。
 
+## [v1.0.25] - 2026-08-15
+
+### Fixed（数据与产品分开）
+
+- `check_report.md`（自检运行日志）移出公开仓库，入 `.gitignore`（本地生成、本地保留）——公开仓库只放产品，不放过程数据（工具运行日志/审计报告/工作记录一律本地或私密）。教训：软件公司开源产品，但不把工程师日志传上去。
+
 ## [v1.0.24] - 2026-08-15
 
 ### Changed（纯净版）
