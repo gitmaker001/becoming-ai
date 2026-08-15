@@ -211,7 +211,9 @@ A growing system's new parts constantly clash with its overall rules. That's not
 - Don't let "ghosts" — stale copies, stale numbers, stale names, stale directory names — survive the night.
 - "Head down to work, head up to see the road" are two sides of one thing: work without looking up goes off course; look without working stays on paper.
 
-**Compute is part of the system: budget before you start, and let inputs shrink layer by layer.**
+**Investment management: verify the purpose first, budget the resources, and let inputs thin out layer by layer.**
+
+The following uses compute (tokens) as the example — it applies to time, attention, money, any scarce resource; **numbers are examples, not dogma**.
 
 - Cost is not set by task difficulty but by **input structure**: how many characters each round feeds in, how many times the same reference is re-read, whether intermediate products get re-carried. What burns tokens is not the work itself, but the way it is organized.
 - For batch tasks, estimate the input size and set a hard cap before starting, written into the brief; slice references on demand instead of carrying whole files; once a distilled product exists, downstream reads only the distilled layer and never goes back to the raw files.
@@ -219,6 +221,7 @@ A growing system's new parts constantly clash with its overall rules. That's not
 - A budget rule written into a document doesn't count; a budget rule written into every round's brief and forcibly checked does — this is "the wisdom of invoking wisdom" landing on cost.
 - Reasoning models carry huge per-call thinking cost: **cutting rounds saves more than shrinking input** — write the number of rounds into the brief (one pass, at most one rework), which saves more than compressing any single input (evidence: a project burned about a billion tokens, mostly on per-round thinking and repeated round-trips, not on feeding raw text).
 - Verify the purpose first: for any big-budget project, prove with minimal cost that the purpose-product is actually useful before scaling up investment — the rigor of the backstage is a means; the goal achieved is the product.
+- Change the numbers when the scene changes; never change the judgment. Wisdom stays flexible; it must not harden into fixed rules.
 
 **These meta-rules can migrate to any dimension.**
 
