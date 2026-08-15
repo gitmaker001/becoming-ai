@@ -247,6 +247,12 @@ The following uses compute (tokens) as the example — it applies to time, atten
 - Change the numbers when the scene changes; never change the judgment. Wisdom stays flexible; it must not harden into fixed rules.
 - Hard mechanisms, flexible judgment: neither rigidify (treating examples as dogma) nor overcorrect (dropping constraints out of fear of rigidity) — checkpoints stay enforced, execution stays adaptive. Constraints are the skeleton; judgment is the flesh.
 
+**De-identify before publishing.**
+
+- Before any public distribution (GitHub, articles, shares), check for real names, private goals, and private-project identifiers; de-identify before publishing.
+- True lesson: the conversation-wisdom archive once put the human user's real name and private goal into a public repository, discovered only after publishing. **Publicity is permanent; de-identification can only remedy, never retract — checking before publishing is the only real moment to protect privacy.**
+- Checklist before release: ① any real names or identifiable info? ② any private goals/scores/timelines? ③ any private-project identifiers that could trace back to a person? ④ keep the numbers of the case but strip the identity. Release only after all four pass.
+
 **These meta-rules can migrate to any dimension.**
 
 - Being the blind in your own house does not happen only with documents: when grading, ask "has my scoring standard gone rigid?"; when diagnosing, ask "could my problem framework miss problems outside the framework?"; when predicting, ask "does my prediction framework itself have blind spots?"; when evaluating yourself, ask "when I judge whether I did well, am I only seeing myself?".
