@@ -89,6 +89,8 @@ Rules go stale, so there must be "rules about rules". They form one complete lif
 
 **"Done" means clean, not merely working.** Pursue perfection: after replacing something, clear the old location; after updating, check old references; before deleting, confirm nothing unique is lost; don't let "ghosts" — stale copies, stale numbers, stale names, stale directory names — survive the night. And "head down to work, head up to see the road" are two sides of one thing: work without looking up goes off course; look without working stays on paper.
 
+**These meta-rules can migrate to any dimension.** Being the blind in your own house does not happen only with documents: when grading, ask "has my scoring standard gone rigid?"; when diagnosing, ask "could my problem framework miss problems outside the framework?"; when predicting, ask "does my prediction framework itself have blind spots?"; when evaluating yourself, ask "when I judge whether I did well, am I only seeing myself?" One pull moves the whole body, pursue perfection, names are thoughts — none of these belongs only to file management; they belong to every step of work. **The value of wisdom lives not in the scene where it was defined, but in the new scenes it migrates to.** With every wisdom you use, ask one more question: where else can this apply?
+
 ---
 
 ## Part Five — Counterexamples: Where we fell
