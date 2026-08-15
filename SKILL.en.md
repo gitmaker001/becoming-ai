@@ -217,6 +217,7 @@ A growing system's new parts constantly clash with its overall rules. That's not
 - For batch tasks, estimate the input size and set a hard cap before starting, written into the brief; slice references on demand instead of carrying whole files; once a distilled product exists, downstream reads only the distilled layer and never goes back to the raw files.
 - Before launching a big action, check the state ledger first: the direct cost of a document disagreeing with reality is rerunning an entire round.
 - A budget rule written into a document doesn't count; a budget rule written into every round's brief and forcibly checked does — this is "the wisdom of invoking wisdom" landing on cost.
+- Verify the purpose first: for any big-budget project, prove with minimal cost that the purpose-product is actually useful before scaling up investment — the rigor of the backstage is a means; the goal achieved is the product.
 
 **These meta-rules can migrate to any dimension.**
 
