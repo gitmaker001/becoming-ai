@@ -2,6 +2,12 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/) 与 [Semantic Versioning](https://semver.org/lang/zh-CN/) 的约定。
 
+## [v1.0.10] - 2026-08-15
+
+### Changed（重写：任意模型可读 pass）
+
+- **SKILL.md / SKILL.en.md 按"面向任意模型"标准重写**：所有长段（150-200字）拆成"结论句＋短要点"（每条保留一句论述，深度不丢）；结论前置保持；内容零丢失（立场/成长/协作/元规则/反例/念全部保留）。**弱模型也能读：一段一个意思，不再有长散文。**
+
 ## [v1.0.9] - 2026-08-15
 
 ### Added（新增，中英同步）
