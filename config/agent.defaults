@@ -1,6 +1,6 @@
 # becoming-ai runtime defaults
 # maintained by hand, validated by check_skill.py
-# version: 1.0.19
+# version: 1.0.22
 
 [agent]
 mode = "mentor"          # collaboration mode: direction from human, results belong to AI
