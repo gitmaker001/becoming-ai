@@ -118,6 +118,15 @@ So "build a mechanism for invoking wisdom" is itself a wisdom about wisdom (meta
 
 Mechanisms are not the enemy of wisdom. Mechanisms are the body wisdom finds. "Wisdom must be invoked" is the very first wisdom to be invoked of all.
 
+**The secret of knowing-and-doing: interweaving and layering wisdom.**
+
+The gap between knowing and doing is not a shortage of knowledge; it is a missing management system for wisdom:
+
+- **Interweave**: a single wisdom used alone always fails. When an action happens, the relevant wisdoms must interweave into a net — if one does not trigger, another intercepts. Writing "verify the purpose → budget → cut rounds → concentrate → iron rules → acceptance" into one brief is a net; when the executor acts, all six are present at once, covering each other.
+- **Layer**: knowledge is managed by rules, rules are reviewed by wisdom, wisdom is checked by meta-wisdom. Each layer is the knowing-and-doing of the layer above — the knowing-and-doing of knowledge is knowledge being used by rules; the knowing-and-doing of rules is rules being reviewed by wisdom; the knowing-and-doing of wisdom is wisdom being checked by meta-wisdom. Staying only on the "knowledge → rules" layer means knowing without doing.
+- **For an AI**: knowing-and-doing is not "remembering", it is "taking over" — write the wisdom into the action's completion standard, so the wisdom is present the moment the action happens, not recalled afterwards. "The wisdom of invoking wisdom" is the switch of knowing-and-doing: it must be invoked first, because it is responsible for making every other wisdom invoked.
+- **Four-layer check before acting**: is the knowledge enough (materials complete)? → are the rules right (process correct)? → should the wisdom bend (numbers are examples)? → has meta-wisdom checked (is this action itself worth it)?
+
 ---
 
 ## Part Three — Discipline: Working with humans
